@@ -1,0 +1,13 @@
+#H-Icon, #HS-Icon {
+    width: 23px;
+}
+
+#HS-Icon {
+    margin-left: 20px;
+    transition: transform 0.3s ease; 
+}
+
+
+#HS-Icon:hover {
+    transform: scale(1.10);
+}
