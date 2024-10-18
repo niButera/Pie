@@ -60,10 +60,6 @@ p {
     background-color: black;
 }
 
-#S-Back2{
-    background-color: rgb(255, 0, 0);
-}
-
 #S-Content {
     justify-content: space-between;
     margin: 0px 0px 0px 7%;
@@ -96,4 +92,67 @@ p {
 #S-Btn:hover {
     transform: scale(1.05);
 }
+
+/* PARTE PRETA */
+#P-Back {
+    position: relative; 
+}
+
+#P-Content {
+    position: relative;
+}
+
+#PP-Img {
+    width: 100%; 
+    height: auto; 
+}
+
+#P-Text {
+   color: white;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%, -50%); 
+    position: absolute; 
+    text-align: center; 
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 60px;
+    z-index: 1; 
+    left: 50%; 
+    top: 50%; 
+
+    
+}
+
+#P-Btn {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.26), rgba(95, 95, 95, 0.096));
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+}
+
+#P-Btn2 {
+    background: linear-gradient(to right, rgb(255, 0, 0), rgba(61, 0, 0, 0.514));
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
+#P-Btn:hover {
+    transform: scale(1.05);
+}
+
+#P-Btn2:hover {
+    transform: scale(1.05);
+}
+
 

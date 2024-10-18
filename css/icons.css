@@ -7,7 +7,6 @@
     transition: transform 0.3s ease; 
 }
 
-
 #HS-Icon:hover {
     transform: scale(1.10);
 }
